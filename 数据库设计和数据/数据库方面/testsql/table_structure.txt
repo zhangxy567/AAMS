@@ -1,0 +1,7 @@
+stu(sno,sname,sex,age,mrkyer,classid) pk:sno,fk:classid
+sc(sno,cno,grade) pk:(sno,cno),fk1:sno,fk2:cno
+course(cno,cname,time,hours,credit,tno)pk:cno,fk:tno
+teaching(tno,cno,stime,etime) pk:(tno,cno)
+teacher(tno,tname,sex,age,degree,title,teachyear) pk;tno
+class(classid,classname) pk:classid
+user(id,uname,upass,type)pk:id
